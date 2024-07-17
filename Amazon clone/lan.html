@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change language setting</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body
+      {
+        font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+       }
+    .header1
+    {
+        padding-left:200px;
+        padding-top:50px;
+    } 
+    .line1
+    {
+        margin-right: 800px;
+        width: 400px;
+    }
+    .line2
+    {
+        border:1px solid  grey;
+    }  
+    .button1
+    {
+        height: 20px;
+        width: 70px;
+        border-radius: 10px;
+        padding: 7px  7px 25px 7px;
+        margin: 10px;
+        border: 0.5px solid grey;
+          
+    }
+    .button2
+    {
+        height:20px;
+        width:150px;
+        border-radius:10px;
+        padding: 7px 5px 25px 2px;
+        margin:10px;
+        border:none;
+        background-color: orange;
+    }
+    .footer
+      {
+          border: 1px solid gray;
+          height:200px;
+          width:100%;
+          text-align: center;
+          
+      }
+      .footer button
+          {
+              height:30px;
+              width: 250px;
+              padding:10px 5px 15px 5px;
+              margin:10px;
+              background-color: orange;
+              border-radius: 7px;
+              border: none;
+          }
+          span
+          {
+              color:blue
+          }
+      
+    </style>
+<body>
+ <div class="header1">
+     <h2>Language setting</h2>
+     <p>Select the language you prefer for browsing, shopping and communications.</p>
+     <input type="radio",name="lan">English-EN
+    <hr class="line1">
+    <input type="radio", name="lan">हिन्दी - HI - अनुवाद <br>
+    <input type="radio", name="lan">தமிழ் - TA - மொழிபெயர்ப்பு<br>
+    <input type="radio", name="lan">తెలుగు - TE - అనువాదం<br>
+    <input type="radio", name="lan">ಕನ್ನಡ - KN - ಭಾಷಾಂತರ<br>
+    <input type="radio", name="lan">മലയാളം - ML - വിവർത്തനം<br>
+    <input type="radio", name="lan">বাংলা - BN - অনুবাদ<br>
+    <input type="radio", name="lan">मराठी - MR - भाषांतर<br><br>
+    <hr class="line2"><br>
+    <div class="button">
+    <button class="button1">cancel</button>
+    <button class="button2">Save Changes</button>
+    </div>
+</div>
+<div class="footer">
+    <p>See personalized recommendation</p>
+    <button>sign in</button>
+    <h6>New customer?<span>start here</span></h6>
+</div>    
+</body>
+</html>

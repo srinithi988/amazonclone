@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body
+  {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+  }
+  header
+  {
+    display:flex;
+    background-color: black;
+  }
+   .fa-brands
+   {
+     height: 50px;
+     width:100px;
+     border-radius: 100px;
+     margin:10px 200px 10px 50px;
+     font-size: 50px;
+     color: white;
+    }
+    .location{
+      padding: 0%;
+      height:30px;
+      border: 1px solid black;
+    }
+    label select
+    {
+         height: 40px;
+         width:40px;
+         margin-top: 10px;
+         margin-right: 0px;
+         background-color: lightslategray;
+    }
+    input
+    {
+      height: 35px;
+      width: 450px;
+      margin-right: 200px;
+      margin-top: 10px;
+
+    }
+    .fa-solid {
+        padding-top: 20px;
+      margin-top: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .second
+     {
+       height: 15px;
+       width:20px;
+       margin-top: 10px;
+       background-color: none;
+       padding: 10px 0px 10px 10px;
+       padding-right: 0%;
+    
+
+     }
+     .link1
+     {
+       margin-right: 200px;
+       margin-top: 10px;
+       padding:10px;
+       text-decoration: none;
+       color: aliceblue;
+       font-size: 15px;
+
+     }
+     .link2
+       {
+         margin-top: 10px;
+         text-decoration: none;
+       color: aliceblue;
+       font-size: 15px;
+       }
+       input:hover
+       {
+         border: 2px solid orange;
+       }
+      .link1:hover,.link2:hover
+      {
+         color:grey
+      }
+      
+      .header ul
+      {
+        list-style: none;
+        display:flex;
+        justify-content: space-between;
+        background-color:rgb(13, 13, 65);
+        height:50px;
+        width: 100%;
+        margin: 0%;
+        padding: 8px;
+      }
+       .header ul li
+       {
+         color: aliceblue;
+         padding: 7px;
+       }
+       .header ul li:hover
+       {
+         border: 1px solid white;
+       }
+       .mainsection
+       {
+            background-image: url("mainpic.jpg");
+            height: 500px;
+            background-size: cover;
+            display: flex;
+       }
+
+       
+       .box
+       {
+            height: 425px;
+            width:350px;
+            border: 1px solid black;
+            margin-left:70px;
+            border-radius: 2px;
+            background-color: white;
+            border: none;
+
+            
+       }
+       .section
+      {
+        margin-top: 260px;
+        display: flex;
+        
+      }
+      .section
+      {
+        text-align: center;
+      }
+      .mini
+      {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      span
+      {
+        color:blue;
+        font-size: 16px;
+      }
+      span:hover
+      {
+        color:red
+      }
+      .mini2 
+      {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .mini3
+      {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .section2
+      {
+        margin-top: 250px;
+      width: 100%;
+        height:320px;
+        padding-top: 50px;
+        background-color: whitesmoke;
+        border: 1px solid rgb(187, 186, 189);
+      }
+      .section2 p
+      {
+        padding-top: 5px;
+        padding-bottom: 25px;
+        font-size: 20px;
+        font-weight: bolder;
+        padding-left: 30px;
+      }
+      .img1
+      {
+        height:100px;
+        width:100%;
+        padding-left: 20px;
+        margin-right: 50px;
+      }
+      .img1 img{
+        padding-right: 22px;
+      }
+      .section2 p span
+      {
+        padding-left: 10px;
+      }
+      .mbox
+      {
+        
+        height: 425px;
+        width:350px;
+        border: 1px solid black;
+        margin-left:70px;
+        border-radius: 2px;
+        background-color: white;
+      }
+      .section3
+      {
+        display: flex;
+        text-align: center;
+        background-color: rgb(219, 223, 223);
+      }
+      .mbox
+      {
+        margin-top: 10px;
+        border:none;
+      }
+       .box4
+       {
+         font-size: 15px;
+         font-weight: bold;
+          }
+       .box4 span
+       {
+         margin-bottom: 5px;
+       }
+       .box5 img 
+       {
+           height: 250px;
+           padding-top: 50px;
+           padding-left: 13px;
+       }
+       .box5 p
+       {
+              padding-top: 10px;
+              font-size: 20px;
+              font-weight: bold;
+       }
+       .box5 span{
+               margin-bottom: 5px;
+       }
+       .box6
+       {
+         display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+       }
+       .box6 img
+       {
+         height: 145px;
+         padding-left: 10px;
+         padding-top: 5px;
+         flex-wrap: wrap;
+       }
+       .sec-1
+       {
+         padding:30px;
+         height: 130px;
+         border: 1px black;
+       }
+       .sec-2
+       {
+         padding:30px;
+         height: 130px;
+       }
+       .sec-3
+       {
+         padding:30px;
+         height: 130px;
+       }
+       .box6 p
+       {
+         padding-top: 15px;
+         font-weight: bold;
+         font-size: 1.5rem;
+         padding-left: 100px;
+       }
+       .box6 img
+       {
+         height: 200px;
+         width: 150px;
+         padding-left: 100px;
+       }
+       .box6 span
+       {
+         padding-left: 100px;
+       }
+       .div-1
+       {
+         height:455px ;
+         width: 390px;
+         border: 1px solid black;
+         margin: 50px 50px 0px 100px;
+         background-color: white;
+         border: none;
+       }
+       .div-2
+       {
+         height:455px ;
+         width: 390px;
+         border: 1px solid black;
+         margin: 50px 50px 0px 80px;
+         background-color: white;
+         border: none;
+       }
+       .div-3
+       {
+         height:455px ;
+         width: 390px;
+         border: 1px solid black;
+         margin: 50px 50px 0px 100px;
+         background-color: white;
+         border: none;
+          }
+       .part
+       {
+         display:flex;
+         text-align: center;
+         background-color: rgb(219, 223, 223);
+         border: none;
+      }
+       .part
+       {
+         padding-bottom: 10px;
+       }
+
+      .div-1 p
+      {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .div-1 img
+      {
+        padding-right: 5px;
+      }
+      .div-2 img
+      {
+        height: 220px;
+        width: 290px;
+      }
+      .div-2 p
+      {
+           font-size: 20px;
+           font-weight: bold;
+      }
+      .div-3 p
+      {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .footer-1
+      {
+        text-align: center;
+      }
+     .fp
+      {
+        font-size: 0.9rem;
+      }
+      .footer-1 button
+       {
+         height: 40px;
+         width: 250px;
+         background-color: orange;
+         border: none;
+         border-radius: 10px;
+       }
+       .footer-1 span
+       {
+         color:blue;
+       }
+       hr
+       {
+         margin-top: 0%;
+         margin-bottom: 0%;
+       }
+      .footer-2
+      {
+        background-color:grey;
+        padding: 10px;
+        margin-top: 0px;
+      }
+      .footer-2 p
+      {
+             text-align: center;
+             font-size: large;
+      }
+      .footer-3
+      {
+        display:flex;
+        background-color: black;
+        justify-content: space-between;
+      }
+      .footer-3 ul li
+      {
+          color:white;
+          list-style: none;
+      }
+      .footermain-1
+      {
+        padding:30px;
+       }
+      .footermain-2
+      {
+        padding:30px;
+      }
+      .footermain-3
+      {
+        padding:30px;
+      }
+      .footermain-4
+      {
+        padding:30px;
+      }
+      .footermain-1 ul li
+      {
+        padding:5px;
+      }
+      .footermain-2 ul li
+      {
+        padding:5px;
+      }
+      .footermain-3 ul li
+      {
+        padding:5px;
+      }
+      .footermain-4 ul li
+      {
+        padding:5px;
+      }
+    .footer
+    {
+      text-align: center;
+      background-color: midnightblue;
+      margin-top: 0%;
+      padding: 20px;
+    }
+    .footer p
+    {
+        color:white;
+        font-size: 0.7rem;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+  
